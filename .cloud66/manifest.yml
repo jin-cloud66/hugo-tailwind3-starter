@@ -1,4 +1,5 @@
 prepress:
   configuration:
+    framework: hugo
     prep_framework_command: yarn install
     build_command: yarn build-tw && yarn build-hugo
