@@ -1,3 +1,4 @@
 prepress:
   configuration:
-    build_command: yarn install && yarn build-tw && yarn build-hugo
+    prep_framework_command: yarn install
+    build_command: yarn build-tw && yarn build-hugo
